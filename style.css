@@ -275,7 +275,14 @@ input {
   font-size: 35px;
 } 
 
-button:hover {
+header > button:hover {
+  cursor: pointer;
+}
+.section1 > button:hover {
+  cursor: pointer;
+  background-color: var(--light-pink);
+}
+.section7 > button:hover {
   cursor: pointer;
   background-color: var(--light-pink);
 }
